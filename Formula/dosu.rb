@@ -7,22 +7,22 @@ class Dosu < Formula
   on_macos do
     on_arm do
       url "https://github.com/RustNegar/dosu/releases/download/v#{version}/dosu-aarch64-apple-darwin.tar.gz"
-      sha256 "12dbea1670de1a5caab45532e5edee3c2bbea7f97863d53915794f342cdad300"
+      sha256 "c37cd95a44bc119009f8788382919dbb674815800fa0b4e12a62d5072c119007"
     end
     on_intel do
       url "https://github.com/RustNegar/dosu/releases/download/v#{version}/dosu-x86_64-apple-darwin.tar.gz"
-      sha256 "030edfbb167848b4ebb06cbfadffdda22fee773032f27b347abba68ef9642583"
+      sha256 "b94844708261fdbc5a3ae7f8fe4fc40774bdc2a083cf37c780aa55d29d31aa4c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/RustNegar/dosu/releases/download/v#{version}/dosu-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b3e1bb3db71cbe92261177eccf548ba9d1452205b5c8169a3780386d2271d6a7"
+      sha256 "ad9183c517be7a0842d7dfc2ca0890ebee8d044e69ebec0562f8cbcd7aa3f191"
     end
     on_intel do
       url "https://github.com/RustNegar/dosu/releases/download/v#{version}/dosu-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8af98404c3f08befe71a5eb254901f6f1ba969c2a1d486afd14dce07e8d58556"
+      sha256 "3b7461a1d4f180730e58f1ca52893d276dd1f50ba74d0361a376bb8d41a467be"
     end
   end
 
